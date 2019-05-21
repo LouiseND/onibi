@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<html lang="fr"> 
+<head> 
+        <script language="javascript" src="lib/p5.js"></script>
+        <script language="javascript" src="lib/p5.dom.js"></script>
+        <script language="javascript" src="lib/p5.sound.js"></script>
+        <script language="javascript" src="lib/p5.play.js"></script>
+        <script language="javascript" src="js/sketch2.js"></script>
+        <meta charset="utf-8"><!--encodage-->
+        <title>Onibi_game</title>
+        <link href="https://fonts.googleapis.com/css?family=Bungee|Press+Start+2P|Staatliches" rel="stylesheet"> 
+        <link href="css/beta.css"  media ="screen" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    
+    <body>
+        
+        
+    
+        <div id="titre"><h1>Onibi</h1></div> 
+        
+      
+        
+        <div>Bienvenue! Dans ce jeu vous incarnez Calcifero. Menez ce personnage jusqu'au bout du niveau! Attention, vous devrez affronter moult dangers...</div>
+        
+        
+        
+        <div id="panneau_central">Niveau 1 <progress id="health"  max="100"></progress>
+            <canvas id="canvas"></canvas>   
+
+                     <div id="fin_niveau"></div>  
+        </div>
+        <br/>
+         
+        
+      
+        
+        <div><input type ="button" class="button" value="commandes" 
+            onclick="document.location.href='commandes.html';">
+            <input type ="button" id="button_reset" value="Recommencer"></div>
+        
+        <div><input type="button" class="button_level" value="Niveau 2"
+            onclick="document.location.href='Niveau_2.html';">
+            
+         <input type="button" class="button_level" value="Niveau 3"
+            onclick="document.location.href='Niveau_3.html';"></div>     
+        
+            <img src="images/calcifero.png" alt="Calcifero" />
+    </body>
+</html>
